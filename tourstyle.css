@@ -1,0 +1,189 @@
+body{
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+}
+.container{
+    height: 130vh;
+    width: 100%;
+    background-image: url(lake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration:30s ;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate{
+        0%{
+            background-image: url(lake.jpg);
+        }
+        20%{
+            background-image: url(main.jpg);
+        }
+        60%{
+            background-image: url(sky.jpg);
+        }
+        80%{
+            background-image: url(1.jpg);
+        }
+        100%{
+            background-image: url(racket.jpg);
+        }
+}
+.con{
+    height: 80vh;
+    width: 100%;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    left: 50%;
+    height: 75vh;
+    width: 100%;
+
+}
+.Ahover:hover{
+    background-color: white;
+    color: palevioletred;
+}
+
+.logbtn{
+    transition: 0.6s solid ease;
+    border: 1px solid #fff;
+}
+.logbtn:hover{
+    background-color:goldenrod;
+    padding: 6px 20px;
+
+    color:#fff;
+}
+
+.A{
+    height: 200px;
+    width: 500;
+}
+.B{
+    background-color: green;
+}
+
+.button{
+     position: absolute;
+     top :90%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     transition: 0.6s solid ease;
+    
+}
+.button :hover{
+    background-color: goldenrod;
+    border: 1px solid #fff;
+
+}
+.btn{
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn :hover{
+    color: #fff;
+
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s solid ease;
+}
+ul li a:hover{
+    background-color:goldenrod;
+    color:#fff;
+}
+.D{
+    padding: 6px 20px;
+    transition: 0.6s solid ease;
+    border: 1px solid #fff;
+}
+.D:hover{
+    background-color:goldenrod;
+    
+
+    color:#fff;
+
+}
+
+
+.textclass{
+    color: #fff;
+    font-weight: 400;
+    margin-top: 60%;
+
+}
+.footer-main-div{
+    width: 100%;
+    height: auto;
+    margin :auto;
+    background:#272727;
+    padding : 20px 0px;
+}
+.footer-social-icons{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.footer-social-icons ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-social-icons ul li{
+ display: inline-block;
+  width: 50px; 
+   height: 50px;
+    margin: 0px 10px;
+     border-radius: 100%;
+     background:#32CD32;
+    
+
+     
+}
+.footer-social-icons ul li a{
+    color: #fff;
+     font-size: 25px;
+}
+.footer-social-icons ul li a{
+    line-height: 50px;
+}
+.ak{
+
+    display: inline-block;
+    width: 50px; 
+   height: 50px;
+    margin: 0px 10px;
+     border-radius: 100%;
+}
+.ak :hover{
+    background-color:goldenrod;
+    color:#272727;
+    border: none;
+    
+}
